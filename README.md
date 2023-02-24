@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Dog Walking App
+An app that will quickly let you know if it is safe to walk your dog outside today
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
