@@ -55,13 +55,13 @@ function SafeWalkTime() {
   
     if (temperature > 26.6) {
       // Too hot
-      image = <img src="./images/hot.gif" alt="hot"/>;
+      image = <img src="./images/hot.gif" alt="dog is too hot"/>;
     } else if (temperature < 0) {
       // Too cold
-      image = <img src="./images/cold.gif" alt="cold" weight="350px" height="350px" />;
+      image = <img src="./images/cold.gif" alt="dog is too cold" weight="350px" height="350px" />;
     } else if (temperature !== null){
       // Safe temperature
-      image = <img src="./images/walk.gif" alt="okay" />;
+      image = <img src="./images/walk.gif" alt="dog is okay" />;
     }
   
     return (
