@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import DogSizeDropdown from "./components/DogSizeDropdown";
+import SafeWalkTime from "./components/SafeWalkTime";
+
 
 function App() {
+  const [inputEntered, setInputEntered] = useState(false);
+
+  const handleInput = () => {
+    setInputEntered(true);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <div className="container">
+        <header>Is it safe to go for a walk?</header>
+        <DogSizeDropdown handleInput={handleInput} />
+        <SafeWalkTime />
+      </div>
+      <footer>
+        Dog Weather App created by Lillian Gil and it is{" "}
+        <a href="https://github.com/lillianmg" target="_blank">
+          open-sourced on GitHub
         </a>
-      </header>
+      </footer>
     </div>
   );
 }
 
 export default App;
+
