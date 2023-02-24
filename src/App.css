@@ -1,38 +1,78 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: black;
-  margin: 2px;
+  margin: 1px;
+  font-size: 4vmin;
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  background-color: black;
+  color: antiquewhite;
+  text-size-adjust: 1px;
+  position: sticky;
+  margin: 1vh;
+  top: 100vh;
+  align-self:center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  color: black; 
+  background-color: rgba(250, 250, 45, 0.783);
+  border-radius: 30px 30px;
+  padding: 2%;
+}
+
+.buttonTemperature {
+  background-color: #36A9AE;
+  background-image: linear-gradient(#37ADB2, #329CA0);
+  border: 1px solid #2A8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 3px;
+  outline: 0;
+  padding: 5px;
+  text-align: center;
+  transition: box-shadow .05s ease-in-out,opacity .05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 25%;
+}
+
+.buttonTemperature:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+  text-decoration: none;
+  transition-duration: .15s, .15s;
+}
+
+.buttonTemperature:active {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
+
+.buttonTemperature:disabled {
+  cursor: not-allowed;
+  opacity: .6;
+}
+
+.buttonTemperature:disabled:active {
+  pointer-events: none;
+}
+
+.buttonTemperature:disabled:hover {
+  box-shadow: none;
+}
+
+a {
+  color:aqua;
 }

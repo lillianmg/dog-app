@@ -73,7 +73,7 @@ function SafeWalkTime() {
             Enter city:
             <input type="text" value={city} onChange={handleCityChange} />
           </label>
-          <button type="button" onClick={getTemperature}>Get Temperature</button>
+          <button type="button" className='buttonTemperature' onClick={getTemperature}>Get Temperature</button>
         </form>
         {temperature ? (
           <div>

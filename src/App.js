@@ -13,14 +13,14 @@ function App() {
 
   return (
     <div className="App">
-      <div className="container">
-        <header>Is it safe to go for a walk?</header>
-        <DogSizeDropdown handleInput={handleInput} />
+      <header>Is it safe to go for a walk?</header>
+        <div className="container">
+          <DogSizeDropdown handleInput={handleInput} />
         <SafeWalkTime />
       </div>
       <footer>
-        Dog Weather App created by Lillian Gil and it is{" "}
-        <a href="https://lillianmg.github.io/dog-app/" target="_blank">
+        Dog Walking App created by Lillian Gil and it is{" "}
+        <a href="https://github.com/lillianmg/dog-app" target="_blank">
           open-sourced on GitHub
         </a>
       </footer>

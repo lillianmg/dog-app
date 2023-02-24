@@ -1,5 +1,18 @@
 # Dog Walking App
-An app that will quickly let you know if it is safe to walk your dog outside today
+https://dogapp.lilliangil.com/
+
+This React app uses the OpenWeatherMap API to determine the location's temperature and tell you if it is safe to take your dog out for a walk, based on the safety data I found online. 
+It shows you the current temperature in your city.
+
+Built with HTML, CSS, JavaScript, AJAX and REACT.
+
+It is hosted using GitHub pages: lillianmg.github.io/dog-app/ 
+Linked to my own custom domain. Configured my subdomain with a CNAME record through my DNS provider.
+
+Code can be found here: https://github.com/lillianmg/dog-app
+
+Hope you enjoy it!  -Lillian
+
 
 ## Getting Started with Create React App
 
