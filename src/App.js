@@ -20,7 +20,7 @@ function App() {
       </div>
       <footer>
         Dog Weather App created by Lillian Gil and it is{" "}
-        <a href="https://github.com/lillianmg" target="_blank">
+        <a href="https://lillianmg.github.io/dog-app/" target="_blank">
           open-sourced on GitHub
         </a>
       </footer>
