@@ -6,7 +6,7 @@ It shows you the current temperature in your city.
 
 Built with HTML, CSS, JavaScript, AJAX and REACT.
 
-It is hosted using GitHub pages: lillianmg.github.io/dog-app/ 
+It is hosted using GitHub pages:  https://lillianmg.github.io/dog-app/ 
 Linked to my own custom domain. Configured my subdomain with a CNAME record through my DNS provider.
 
 Code can be found here: https://github.com/lillianmg/dog-app
